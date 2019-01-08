@@ -34,9 +34,13 @@
         titlePrefix: 'LOCAL :: ',
         apiUrl: 'http://api.datastudio.localhost:8888',
       })
-      .addEnvironment('prod', 'webui.datastudio.eviratec.software', {
+      .addEnvironment('prod', 'my.datastudio.xyz', {
         titlePrefix: '',
-        apiUrl: 'https://api.datastudio.eviratec.software',
+        apiUrl: 'https://api.datastudio.xyz',
+      })
+      .addEnvironment('prod2', 'https://my.datastudio.xyz', {
+        titlePrefix: '',
+        apiUrl: 'https://api.datastudio.xyz',
       })
       .defaultEnvironmentName('local');
 
