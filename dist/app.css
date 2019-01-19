@@ -14,92 +14,6 @@
  * OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR
  * PERFORMANCE OF THIS SOFTWARE.
  */
-#signup {
-  background: #37474F; }
-
-#signup div.signup-form.form-wrapper header span.md-headline,
-#signup div.signup-form.form-wrapper header span.md-subhead {
-  line-height: 1; }
-
-#signup div.signup-form.form-wrapper header span.md-headline {
-  font-family: 'Philosopher', sans-serif;
-  font-weight: 700; }
-
-#signup div.signup-form.form-wrapper header span.md-subhead {
-  text-transform: upper-case; }
-
-#signup div.signup-form.form-wrapper {
-  width: 400px;
-  background-color: #fff;
-  border-radius: 2px; }
-
-#signup div.signup-form.form-wrapper header img.app-logo {
-  width: 48px;
-  height: 48px;
-  margin-right: 16px; }
-
-#signup div.signup-form.form-wrapper header {
-  padding: 32px 24px 24px; }
-
-#signup div.signup-form.form-wrapper md-content {
-  background-color: #fff;
-  padding: 24px; }
-
-#signup div.signup-form.form-wrapper md-content .new-user-notice {
-  margin-top: 0;
-  font-style: italic;
-  color: #9C27B0; }
-
-#signup div.signup-form.form-wrapper md-content .new-user-notice p {
-  margin: 0; }
-
-#signup div.signup-form.form-wrapper div.submit-row {
-  padding: 0 24px 24px; }
-
-#login {
-  background: #37474F; }
-  #login .login-error {
-    text-align: left;
-    margin: 0 24px;
-    color: #F44336; }
-  #login .new-user-banner {
-    background-color: #00838F;
-    color: rgba(255, 255, 255, 0.7);
-    width: 400px;
-    margin-bottom: 24px;
-    padding: 0 0 0 32px; }
-  #login .new-user-banner strong {
-    margin-right: 8px;
-    color: white; }
-  #login div.login-form.form-wrapper header span.md-headline,
-  #login div.login-form.form-wrapper header span.md-subhead {
-    line-height: 1; }
-  #login div.login-form.form-wrapper header span.md-headline {
-    font-family: 'Philosopher', sans-serif;
-    font-weight: 700; }
-  #login div.login-form.form-wrapper header span.md-subhead {
-    text-transform: upper-case; }
-  #login div.login-form.form-wrapper {
-    width: 400px;
-    background-color: #fff;
-    border-radius: 2px; }
-  #login div.login-form.form-wrapper header img.app-logo {
-    width: 48px;
-    height: 48px;
-    margin-right: 16px; }
-  #login div.login-form.form-wrapper header {
-    padding: 32px 24px 24px; }
-  #login div.login-form.form-wrapper md-content {
-    background-color: #fff;
-    padding: 24px; }
-  #login div.login-form.form-wrapper md-content .new-user-notice {
-    background-color: #eee;
-    padding: 24px; }
-  #login div.login-form.form-wrapper md-content .new-user-notice p {
-    margin: 0; }
-  #login div.login-form.form-wrapper div.submit-row {
-    padding: 0 24px 24px; }
-
 html, body {
   height: 100%;
   position: relative; }
@@ -265,7 +179,7 @@ bdo[dir=ltr] {
   unicode-bidi: bidi-override; }
 
 html, body {
-  -webkit-tap-highlight-color: transparent;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
   -webkit-touch-callout: none;
   min-height: 100%;
   -webkit-text-size-adjust: 100%;
@@ -3393,7 +3307,7 @@ md-input-container.md-input-has-value .md-select-value > span:not(.md-select-ico
   padding: 2px 2px 1px;
   border-bottom-width: 1px;
   border-bottom-style: solid;
-  background-color: transparent;
+  background-color: rgba(0, 0, 0, 0);
   position: relative;
   box-sizing: content-box;
   min-width: 64px;
@@ -13789,6 +13703,9 @@ md-toolbar {
   font-weight: 400;
   src: local("Material Icons"), local("MaterialIcons-Regular"), url(https://fonts.gstatic.com/s/materialicons/v22/2fcrYFNaTjcS6g4U3t-Y5ZjZjT5FdEJ140U2DJYC3mY.woff2) format("woff2"); }
 
+.legal-text {
+  margin: 16px; }
+
 .material-icons {
   font-family: 'Material Icons';
   font-weight: normal;
@@ -13879,6 +13796,14 @@ md-content.ds-main-content {
 .user-dashboard md-card {
   cursor: pointer; }
 
+.user-dashboard header {
+  padding: 24px;
+  background-color: #212121;
+  color: white; }
+
+.user-dashboard header .md-subhead {
+  color: rgba(0, 0, 0, 0.38); }
+
 .user-dashboard .create-app-card {
   height: 125px;
   margin: 8px;
@@ -13886,11 +13811,178 @@ md-content.ds-main-content {
   border-radius: 3px;
   border-color: rgba(0, 0, 0, 0.12); }
 
+/**
+ * Data Studio by Eviratec
+ * Copyright (c) 2017 - 2019 Callan Peter Milne
+ *
+ * Permission to use, copy, modify, and/or distribute this software for any
+ * purpose with or without fee is hereby granted, provided that the above
+ * copyright notice and this permission notice appear in all copies.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES WITH
+ * REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY
+ * AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY SPECIAL, DIRECT,
+ * INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM
+ * LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR
+ * OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR
+ * PERFORMANCE OF THIS SOFTWARE.
+ */
+#root md-list-item._md-button-wrap.active {
+  background-color: rgba(0, 0, 0, 0.2);
+  color: white; }
+
+/**
+ * Data Studio by Eviratec
+ * Copyright (c) 2017 - 2019 Callan Peter Milne
+ *
+ * Permission to use, copy, modify, and/or distribute this software for any
+ * purpose with or without fee is hereby granted, provided that the above
+ * copyright notice and this permission notice appear in all copies.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES WITH
+ * REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY
+ * AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY SPECIAL, DIRECT,
+ * INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM
+ * LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR
+ * OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR
+ * PERFORMANCE OF THIS SOFTWARE.
+ */
+/**
+ * Data Studio by Eviratec
+ * Copyright (c) 2017 - 2019 Callan Peter Milne
+ *
+ * Permission to use, copy, modify, and/or distribute this software for any
+ * purpose with or without fee is hereby granted, provided that the above
+ * copyright notice and this permission notice appear in all copies.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES WITH
+ * REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY
+ * AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY SPECIAL, DIRECT,
+ * INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM
+ * LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR
+ * OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR
+ * PERFORMANCE OF THIS SOFTWARE.
+ */
+#signup {
+  background: #37474F; }
+
+#signup div.signup-form.form-wrapper header span.md-headline,
+#signup div.signup-form.form-wrapper header span.md-subhead {
+  line-height: 1; }
+
+#signup div.signup-form.form-wrapper header span.md-headline {
+  font-family: 'Philosopher', sans-serif;
+  font-weight: 700; }
+
+#signup div.signup-form.form-wrapper header span.md-subhead {
+  text-transform: upper-case; }
+
+#signup div.signup-form.form-wrapper {
+  width: 400px;
+  background-color: #fff;
+  border-radius: 2px; }
+
+#signup div.signup-form.form-wrapper header img.app-logo {
+  width: 48px;
+  height: 48px;
+  margin-right: 16px; }
+
+#signup div.signup-form.form-wrapper header {
+  padding: 32px 24px 24px; }
+
+#signup div.signup-form.form-wrapper md-content {
+  background-color: #fff;
+  padding: 24px; }
+
+#signup div.signup-form.form-wrapper md-content .new-user-notice {
+  margin-top: 0;
+  font-style: italic;
+  color: #9C27B0; }
+
+#signup div.signup-form.form-wrapper md-content .new-user-notice p {
+  margin: 0; }
+
+#signup div.signup-form.form-wrapper div.submit-row {
+  padding: 0 24px 24px; }
+
+/**
+ * Data Studio by Eviratec
+ * Copyright (c) 2017 - 2019 Callan Peter Milne
+ *
+ * Permission to use, copy, modify, and/or distribute this software for any
+ * purpose with or without fee is hereby granted, provided that the above
+ * copyright notice and this permission notice appear in all copies.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES WITH
+ * REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY
+ * AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY SPECIAL, DIRECT,
+ * INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM
+ * LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR
+ * OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR
+ * PERFORMANCE OF THIS SOFTWARE.
+ */
+#login {
+  background: #37474F; }
+  #login .login-error {
+    text-align: left;
+    margin: 0 24px;
+    color: #F44336; }
+  #login .new-user-banner {
+    background-color: #00838F;
+    color: rgba(255, 255, 255, 0.7);
+    width: 400px;
+    margin-bottom: 24px;
+    padding: 0 0 0 32px; }
+  #login .new-user-banner strong {
+    margin-right: 8px;
+    color: white; }
+  #login div.login-form.form-wrapper header span.md-headline,
+  #login div.login-form.form-wrapper header span.md-subhead {
+    line-height: 1; }
+  #login div.login-form.form-wrapper header span.md-headline {
+    font-family: 'Philosopher', sans-serif;
+    font-weight: 700; }
+  #login div.login-form.form-wrapper header span.md-subhead {
+    text-transform: upper-case; }
+  #login div.login-form.form-wrapper {
+    width: 400px;
+    background-color: #fff;
+    border-radius: 2px; }
+  #login div.login-form.form-wrapper header img.app-logo {
+    width: 48px;
+    height: 48px;
+    margin-right: 16px; }
+  #login div.login-form.form-wrapper header {
+    padding: 32px 24px 24px; }
+  #login div.login-form.form-wrapper md-content {
+    background-color: #fff;
+    padding: 24px; }
+  #login div.login-form.form-wrapper md-content .new-user-notice {
+    background-color: #eee;
+    padding: 24px; }
+  #login div.login-form.form-wrapper md-content .new-user-notice p {
+    margin: 0; }
+  #login div.login-form.form-wrapper div.submit-row {
+    padding: 0 24px 24px; }
+
+/**
+ * Data Studio by Eviratec
+ * Copyright (c) 2017 - 2019 Callan Peter Milne
+ *
+ * Permission to use, copy, modify, and/or distribute this software for any
+ * purpose with or without fee is hereby granted, provided that the above
+ * copyright notice and this permission notice appear in all copies.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES WITH
+ * REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY
+ * AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY SPECIAL, DIRECT,
+ * INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM
+ * LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR
+ * OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR
+ * PERFORMANCE OF THIS SOFTWARE.
+ */
 #Dialog_CreateApiOperation md-toolbar {
   background: #212121; }
-
-#Dialog_ViewApiSchema .schema-source pre {
-  margin: 24px; }
 
 #appEditor header {
   padding: 24px;
@@ -13912,10 +14004,12 @@ md-content.ds-main-content {
 #appEditor .app-dashboard-cards md-card {
   margin: 8px 8px 16px; }
 
-#appEditor .app-schemas {
-  padding: 8px; }
-  #appEditor .app-schemas .schema-side {
-    margin: 8px; }
+#appEditor .create-api-card {
+  height: 125px;
+  margin: 8px;
+  border: 2px dashed;
+  border-radius: 3px;
+  border-color: rgba(0, 0, 0, 0.12); }
 
 #appEditor .empty-card-filler {
   margin-top: 64px;
@@ -13930,6 +14024,19 @@ md-content.ds-main-content {
     margin: 8px; }
   #appEditor .app-dashboard-cards md-card md-card-header-text .md-subhead {
     font-weight: 300; }
+
+#appEditor .app-api-cards {
+  padding: 8px; }
+
+#appEditor .app-schemas {
+  padding: 8px; }
+  #appEditor .app-schemas .schema-side {
+    margin: 8px; }
+  #appEditor .app-schemas .schema-properties-container .schema-property {
+    margin: 8px;
+    background-color: #fff;
+    border-radius: 2px;
+    padding: 0 0 0 16px; }
 
 #appEditor .app-apis {
   padding: 8px; }
@@ -13968,6 +14075,9 @@ md-content.ds-main-content {
     margin: 8px;
     background-color: #fff;
     border-radius: 2px; }
+    #appEditor .app-apis .api-route-list .api-route .api-operation span.md-body-1 {
+      text-overflow: ellipsis;
+      overflow: hidden; }
     #appEditor .app-apis .api-route-list .api-route .api-operation .http-method {
       line-height: 24px;
       padding: 8px;
@@ -14156,7 +14266,7 @@ bdo[dir=ltr] {
   unicode-bidi: bidi-override; }
 
 html, body {
-  -webkit-tap-highlight-color: transparent;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
   -webkit-touch-callout: none;
   min-height: 100%;
   -webkit-text-size-adjust: 100%;
@@ -17284,7 +17394,7 @@ md-input-container.md-input-has-value .md-select-value > span:not(.md-select-ico
   padding: 2px 2px 1px;
   border-bottom-width: 1px;
   border-bottom-style: solid;
-  background-color: transparent;
+  background-color: rgba(0, 0, 0, 0);
   position: relative;
   box-sizing: content-box;
   min-width: 64px;
