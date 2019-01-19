@@ -2,6 +2,13 @@
 
 UI for Data Studio by Eviratec
 
+## Develop / deploy
+
+1. Install dependencies: `$ npm install`
+2. Update config entries in `/src/app/modules/app/config.es` to point to [Data Studio by Eviratec Web API](https://github.com/data-studio/web-api)
+3. Build dist files using Gulp: `$ ./node_modules/gulp/bin/gulp.js dist`
+4. Serve files in `/dist` folder using Nginx, Apache, etc. (See Nginx config file example: `nginx.example.conf`)
+
 ## License
 
 ```
